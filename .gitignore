@@ -1,0 +1,15 @@
+# Runtime outputs
+**/outputs/
+**/logs/
+**/viz_out/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+envs/
+
+# Credentials — never commit
+*service_account*.json
+*.pem
+.env
