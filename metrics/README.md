@@ -10,7 +10,7 @@ spatio-temporal grounding of the supporting evidence.
 
 `evaluate.sh` is preconfigured to run the bundled example — the 80-QA ground truth in
 [`example/castbench_hf.jsonl`](example/castbench_hf.jsonl) paired with the Claude
-Sonnet 4.6 predictions in [`../inference/`](../inference/). No dataset download needed:
+Sonnet 4.6 predictions in [`../inference/predictions/`](../inference/predictions/). No dataset download needed:
 
 ```bash
 bash evaluate.sh
@@ -146,6 +146,6 @@ metrics/
 │   ├── evaluate_benchmark.py   # main evaluation entrypoint
 │   └── metrics_core.py         # tIoU, vIoU, greedy matching
 ├── evaluate.sh                 # single-model eval
-├── example/                    # runnable example: 80-QA GT (paired with inference/ predictions)
+├── example/                    # runnable example: 80-QA GT (paired with inference/predictions/)
 └── outputs/                    # evaluation results per model (created at runtime)
 ```

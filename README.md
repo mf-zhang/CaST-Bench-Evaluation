@@ -28,7 +28,7 @@ input to the metrics. Compare your results against published baselines on the
 1. **Generate predictions** — run any video-capable model with
    [`inference/prompt.md`](inference/prompt.md) and write one prediction per line to a
    `.jsonl` (see [`inference/README.md`](inference/README.md)). A sample output from Claude
-   Sonnet 4.6 is bundled at [`inference/sonnet-4.6_predictions.jsonl`](inference/sonnet-4.6_predictions.jsonl).
+   Sonnet 4.6 is bundled at [`inference/predictions/sonnet-4.6_predictions.jsonl`](inference/predictions/sonnet-4.6_predictions.jsonl).
 
 2. **Evaluate** (see [`metrics/README.md`](metrics/README.md)) — `evaluate.sh` is
    preconfigured to run the bundled example, no dataset download needed:

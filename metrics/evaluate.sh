@@ -13,7 +13,7 @@ MODEL_NAME="claude-sonnet-4-6"
 GT_PATH="$SCRIPT_DIR/example/castbench_hf.jsonl"
 
 # Path to the predictions .jsonl file (one prediction per line)
-PRED_PATH="$SCRIPT_DIR/../inference/sonnet-4.6_predictions.jsonl"
+PRED_PATH="$SCRIPT_DIR/../inference/predictions/sonnet-4.6_predictions.jsonl"
 
 # Index range (inclusive start, exclusive end). Used to evaluate a subset of QAs.
 START_INDEX=0
